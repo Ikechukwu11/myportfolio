@@ -145,6 +145,15 @@ footer {
        margin-left: -20px;
       }
     }
+    .linked {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .projects {
+      min-height: 310px !important;
+    }
 
 </style>
   </head>
@@ -154,7 +163,7 @@ footer {
         <!-- Container wrapper -->
         <div class="container">
            <!-- Navbar brand -->
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#home">
             <img
               src="img/avatar2.png"
               height="30 "
@@ -162,7 +171,7 @@ footer {
               alt=""
               loading="lazy"
             />
-            <span class="font-weight-bold"></span>
+            <span class="font-weight-bold"><i class="fas fa-chevron-left"></i>ikechukuw.kev<i class="fas fa-chevron-right"></i></span>
           </a>
 
           <!-- Toggle button -->
@@ -226,7 +235,7 @@ footer {
             <div class="carousel-caption d-md-block">
               <div class="row">
               <div class="col-12 col-lg-3 col-lg-6 m-auto"><h3 class="heading text-uppercase bg-white text-dark">Ikechukwu kevin</h3>
-                <p class="heading text-uppercase">Full Stack Web Developer </p></div>
+                <p class="heading text-uppercase">Web Designer / Developer </p></div>
               <div class="d-none d-md-block col-12 col-md-3 col-lg-6 m-auto"><img src="img/avatar1.png" class="avatarimg rounded-circle" width=""></div>
             </div>
             </div>
@@ -298,10 +307,10 @@ footer {
               />
               <p><strong>Who's this guy?</strong></p>
               <p>
-                My name is Kevin. I studied 
-                I'm a self taught Full Stack Web Developer and freelancer still on the learning path. I have
-                passion for creating simple but yet efective UI  for dynamic user experiences. Let's make something special.
-                Dedicated and Top-Notch IT Professional with a fervor for tackling human-based problems with the use of Computer Technologies whilst having competency in all areas of system support, programming and having the ability to succeed in a demanding work environment.Highly articulated and effective communicator, work well with individuals at levels, looking forward to making significant contributions in an ambitious and exciting company that offers genuine opportunities for progression.
+                My name is Ikechukwu, a gamer and a techie.
+                I'm a self taught freelance Full Stack Web Designer/Developper still on the learning path. I have
+                passion for creating simple but yet effective UI  for dynamic user experiences.
+                A dedicated IT personnel with a passion for tackling human-based problems with the use of Computer Technologies whilst having competency in all areas of system support, programming and having the ability to succeed in a demanding work environment.Highly articulated and effective communicator, work well with individuals at levels, looking forward to making significant contributions in an ambitious and exciting company that offers genuine opportunities for progression.I possess strong analytical and technical problem solving skill also being highly trustworthy, discreet and ethical.  Excellent written and verbal communication skills in English
               </p>
 
               <!-- Facebook -->
@@ -480,8 +489,8 @@ footer {
           <h3 class="my-5"><strong></strong></h3>
 
           <div class="row">
-            <div class="col-lg-4 col-md-12 mb-4">
-              <div class="card projects">
+            <div class="col-lg-4 col-md-12 mb-4 linked" onclick="window.open('https://ikechukwu11.github.io/Kekesmovic-JavaScript-Calculator')">
+              <div class="card projects shadow">
                 <div
                   class="bg-image mt-3 "
                   data-ripple-color="light"
@@ -505,8 +514,8 @@ footer {
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card projects">
+            <div class="col-lg-4 col-md-6 mb-4 linked" onclick="window.open('https://ikechukwu11.github.io/javascript-qoute-machine')">
+              <div class="card projects shadow">
                 <div
                   class="bg-image mt-3 "
                   data-ripple-color="light"
@@ -521,17 +530,17 @@ footer {
                     ></div>
                   </a>
                 </div>
+                
                 <div class="card-body">
                   <h5 class="card-title">Randome Quote Machine</h5>
                   <p class="card-text">
                     A random quote machine built with HTML, CSS, Bootstrap and Javascript 
                   </p>
-                  
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card projects">
+            <div class="col-lg-4 col-md-6 mb-4 linked" onclick="window.open('https://kttracker.netlify.app')">
+              <div class="card projects shadow">
                 <div
                   class="bg-image mt-3 "
                   data-ripple-color="light"
@@ -552,67 +561,55 @@ footer {
                   </p>
                   
                 </div>
-                 <div
-                  class="bg-image mt-3 "
-                  data-ripple-color="light"
-                >
-                  <img src="img/tracker.png" class="project-img" height="10" />
-                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.1);"></div>
-                  
-                  <a href="#!">
-                    <div
-                      class="mask"
-                      style="background-color: rgba(251, 251, 251, 0.15);"
-                    ></div>
-                  </a>
-                </div>
+                
               </div>
              
             </div>
-            <div class="col-lg-6 col-md-6 mb-4">
-              <div class="card projects">
+            <div class="col-lg-4 col-md-6 mb-4 linked" onclick="window.open('https://kwdquiz.netlify.app')">
+              <div class="card projects shadow">
                 <div
                   class="bg-image mt-3  "
                   data-ripple-color="light"
                 >
-                  <img src="img/projects/unit.png" class="project-img" height="150" />
-                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.1);"></div>
+                  <img src="img/squiz.png" class="project-img" height="150" />
+                  <div class="mas" style="background-color: rgba(0, 0, 0, 0.1);"></div>
                   
                   <a href="#!">
                     <div
-                      class="mask"
+                      class="mas"
                       style="background-color: rgba(251, 251, 251, 0.15);"
                     ></div>
                   </a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">New design landing page</h5>
+                  <h5 class="card-title">Simple Javascript Quiz App</h5>
                   <p class="card-text">
-                    Corporate page for famous furniture designer Anthony Marc
+                    A simple quiz application built with HTML,CSS,Javascript and W3 CSS.
                   </p>
                   
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 mb-4">
-              <div class="card projects">
+            <div class="col-lg-4 col-md-6 mb-4 linked" onclick="window.open('https://previews.kmovic.xyz/sales')">
+              <div class="card projects shadow">
                 <div
                   class="bg-image mt-3  "
                   data-ripple-color="light"
                 >
-                  <img src="img/projects/fede.png" class=" project-img" height="150" />
-                   <div class="mask" style="background-color: rgba(0, 0, 0, 0.1);"></div>
+                  <img src="img/sales.png" class=" project-img" height="150" />
+                   <div class="" style="background-color: rgba(0, 0, 0, 0.1);"></div>
                   <a href="#!">
                     <div
-                      class="mask"
+                      class=""
                       style="background-color: rgba(251, 251, 251, 0.15);"
                     ></div>
                   </a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">New design landing page</h5>
+                  <h5 class="card-title">
+                  <h5 class="card-title">Simple Sales Calculator</h5>
                   <p class="card-text">
-                    Corporate page for famous furniture designer Anthony Marc
+                     A sales (incomes/expenditures) calculator built with HTML, CSS, Bootstrap and Javascript 
                   </p>
                   
                 </div>
@@ -650,13 +647,7 @@ footer {
                 <button type="submit" class="btn text-white btn-demo btn-block mb-4">Send</button>
                 </div>
               </form>
-               <a
-                class="btn btn-demo btn-floating m-1"
-                style="background-color: #3b5998; color: white"
-                href="https://facebook.com/kevin.uzoma"
-                role="button"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
+               
             </div>
               
           </section>
